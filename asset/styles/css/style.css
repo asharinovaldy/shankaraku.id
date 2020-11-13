@@ -1,0 +1,132 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.logo {
+    margin: 30px;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #c74375;
+}
+
+.branding {
+    font-family: "Rancho", cursive;
+    font-size: 36px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: whitesmoke !important;
+    margin: 7px;
+}
+
+/* .nav-link:hover {
+    font-weight: bold;
+} */
+
+.statistik {
+    margin-top: -25px;
+}
+
+.new {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+    color: #c74375;
+}
+
+.heading {
+    margin-top: 100px;
+    color: antiquewhite;
+}
+
+.heading-products {
+    margin-bottom: -300px;
+    background: linear-gradient(#fff 0%, #faf3e3 100%);
+    min-height: 400px;
+    margin-top: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #DDD !important;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    background-color: black;
+}
+
+/* .row .card:hover {
+    transform: scale(1.02);
+} */
+
+.best-seller {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #c74375;
+}
+
+.our-product {
+    margin-top: 50px;
+    color: #c74375;
+}
+
+.product-new {
+    min-height: 540px;
+    background-color: #ee778a;
+    margin-top: -100px;
+    margin-bottom: -300px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.price {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.color {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.list-unstyled {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 50%;
+    }
+
+    .card {
+        margin: 30px;
+    }
+}
